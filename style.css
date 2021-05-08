@@ -1,0 +1,140 @@
+.title1{
+    font-size:15px;
+    font-style: italic;
+    
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+   
+}
+.item{
+    border:2px black solid
+}
+
+.header{
+    background-color:magenta;
+    display: flex;
+    justify-content:space-between;
+}
+.youtubelink{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 30px;
+}
+.headings{
+    font-size:35px;
+}
+.headPlanets{
+    font-size:60px;
+    list-style-type: armenian;
+}
+.subheadPlanets{
+    font-size:40px;
+    list-style-type: armenian;
+}
+.facts{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 30px;
+}
+.facts1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    border:2px black solid;
+}
+.afhobb{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:center;
+    font-size: 30px;
+}
+.hobby{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:left;
+    font-size: 30px;
+}
+h2,p{
+    text-align:center;
+
+}
+.item1{
+    display:inline-flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    border:2px black solid;
+ 
+    
+}
+.item:hover{
+    border:red 5px solid;
+}
+
+
+.headDino{
+    display: 'flexbox';
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 45px;
+    font-style: italic;
+    font-family: cursive;
+    background-color: rgb(0, 255, 255);
+    color: rgb(0, 64, 255)
+}
+.headDino1{
+    display: 'flexbox';
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 45px;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(0, 26, 255)
+
+}
+.headDino1:hover{
+    background-color: rgb(0, 255, 255);
+    color: rgb(17, 0, 255);
+    border: 5px cyan solid;
+    font-size: 60px;
+}
+.back{
+    display: 'flexbox';
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgb(0, 255, 255);
+    
+}
+.back:hover{
+    background-color: rgb(0, 255, 255);
+    color: rgb(17, 0, 255);
+    border: 5px cyan solid;
+    font-size: 35px;
+}
+*{
+    background-color: rgb(0,200,255);
+    border: cyan;
+}
+.description{
+    font-size: 25px;
+}
+.aboutme{
+    display: flex;
+    justify-content:center;
+    font-size:20px;
+}
